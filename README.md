@@ -8,15 +8,13 @@ This is a learning purpose to see more [Invoice App on Frontend Mentor](https://
 
 • TypeScript
 
-• Tailwind CSS
+• Styled Component(Old) => Tailwind CSS(New)
 
 • React
 
-• Redux Tool Kit
-
 • React Icon
 
-• [Vitest](https://vitest.dev/)
+• Axios
 
 ## The challenge
 
@@ -75,11 +73,11 @@ Users should be able to:
 
 1. Install node_modules
 
-   `yarn install` or `npm install`
+   `yarn install` 
 
 2. Type command and implement package.json
 
-   `yarn start` or `npm start`
+   `yarn start` 
 
 ## Start Server
 
@@ -92,8 +90,5 @@ Users should be able to:
 
 ## Demo
 
-You can see [Job Seeker](https://job-listing-filter-nine.vercel.app)
+You can see [Invoice App]()
 
-## Learning with Jay Lin YouTube Channel
-
-[Jay Lin XR](https://www.youtube.com/channel/UC1rMgKD4Rn-7aVcymjlvhfQ) tutorial

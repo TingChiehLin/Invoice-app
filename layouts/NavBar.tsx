@@ -38,7 +38,7 @@ const avatar = {
 };
 
 const NavBarLayout: NextPage = () => {
-  const [isDarkMode, setIsDarkMode] = useState<Boolean>(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   const modeHandler = () => {
     setIsDarkMode(!isDarkMode);
@@ -50,8 +50,9 @@ const NavBarLayout: NextPage = () => {
         <Image
           alt={"logo"}
           src={"/assets/logo.svg"}
-          width={"40px"}
-          height={"37.71px"}
+          width={40}
+          height={37.71}
+          style={{ height: "auto" }}
         />
       </LogoContainer>
       <BottomContainer>
@@ -59,16 +60,16 @@ const NavBarLayout: NextPage = () => {
           <Image
             alt={"sunMode"}
             src={"/assets/icon-sun.svg"}
-            width={"20px"}
-            height={"20px"}
+            width={20}
+            height={20}
             onClick={modeHandler}
           />
         ) : (
           <Image
             alt={"moonMode"}
             src={"/assets/icon-moon.svg"}
-            width={"20px"}
-            height={"20px"}
+            width={20}
+            height={20}
             onClick={modeHandler}
           />
         )}
@@ -77,8 +78,9 @@ const NavBarLayout: NextPage = () => {
           style={avatar}
           alt={"Davatar"}
           src={"/assets/image-avatar.jpg"}
-          width={"40px"}
-          height={"40px"}
+          width={40}
+          height={40}
+          priority
         />
       </BottomContainer>
     </NavBar>
